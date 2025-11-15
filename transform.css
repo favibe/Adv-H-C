@@ -1,0 +1,69 @@
+.rotate-by-deg {
+  transform: rotate(45deg);
+}
+
+.rotate-by-rad {
+  transform: rotate(-1rad);
+}
+
+.rotate-by-turn {
+  transform: rotate(0.3turn);
+}
+
+/* Scale
+ -Scaleon x direction
+ -Scale on y direction
+ -Scale(x, y) direction
+ -scale(uniform) for both X and Y*/
+
+.scaleX {
+  transform: scaleX(0.25);
+}
+
+.scaleY {
+  transform: scaleY(1.5);
+}
+
+.scaleXY {
+  transform: scale(0.25, 1.5);
+}
+
+.scale {
+  transform: scale(0.5);
+}
+/* Skew 
+ -SkewX direction
+ SkewY direction
+ Skew(X and Y) direction
+ Skew() just behaves as SkewX*/
+
+.skewX {
+  transform: skewX(45deg);
+}
+
+.skewY {
+  transform: skewY(-0.5rad);
+}
+
+.skewXY {
+  transform: skew(45deg, -0.5rad);
+}
+
+.skew {
+  /* single value behaves the same as skewX */
+  transform: skew(45deg);
+}
+
+/* Translate */
+.translateX {
+  transform: translateX(20px);
+}
+
+.translateY {
+  /* percent values are of the element's width */
+  transform: translateY(-33%);
+}
+
+.translateXY {
+  transform: translate(20px, -33%);
+}
